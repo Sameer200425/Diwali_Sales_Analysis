@@ -1,0 +1,33 @@
+{
+    "best_model": "Linear Regression",
+    "models": {
+        "Linear Regression": {
+            "MAE": 2375.48,
+            "RMSE": 3149.24,
+            "R2_Score": 0.638,
+            "CV_R2_Mean": 0.6441,
+            "CV_R2_Std": 0.0099
+        },
+        "Ridge Regression": {
+            "MAE": 2384.54,
+            "RMSE": 3161.71,
+            "R2_Score": 0.6351,
+            "CV_R2_Mean": 0.6423,
+            "CV_R2_Std": 0.0099
+        },
+        "Random Forest Regressor": {
+            "MAE": 2499.04,
+            "RMSE": 3462.08,
+            "R2_Score": 0.5625,
+            "CV_R2_Mean": 0.5766,
+            "CV_R2_Std": 0.0118
+        },
+        "Gradient Boosting Regressor": {
+            "MAE": 2455.75,
+            "RMSE": 3343.88,
+            "R2_Score": 0.5919,
+            "CV_R2_Mean": 0.6064,
+            "CV_R2_Std": 0.0085
+        }
+    }
+}
